@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favorites | QuoteNova</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">QuoteNova</div>
+</nav>
+
+<a href="index.html" class="explore-btn">⬅ Back Home</a>
+
+<section class="quotes">
+
+<h1>❤️ Favorite Quotes</h1>
+
+<p id="favoriteQuote" style="text-align:center;font-size:22px;">
+No favorite quote saved yet.
+</p>
+
+<button id="clearBtn" class="explore-btn">🗑 Clear Favorite</button>
+
+</section>
+
+<script>
+
+const favoriteQuote = document.getElementById("favoriteQuote");
+const clearBtn = document.getElementById("clearBtn");
+
+const saved = localStorage.getItem("favoriteQuote");
+
+if(saved){
+    favoriteQuote.innerText = saved;
+}
+
+clearBtn.addEventListener("click", function(){
+
+    localStorage.removeItem("favoriteQuote");
+
+    favoriteQuote.innerText = "No favorite quote saved yet.";
+
+    alert("Favorite Removed!");
+
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuoteNova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">QuoteNova</div>
+<button id="themeBtn">🌙 Dark Mode</button>
+   <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#categories">Categories</a></li>
+    <li><a href="favorites.html">❤️ Favorites</a></li>
+    <li><a href="#poets">Poets</a></li>
+    <li><a href="#about">About</a></li>
+</ul>
+</nav>
+
+<section class="hero" id="home">
+
+    <h1>Every Quote Tells A Story</h1>
+
+    <p>
+        Discover thousands of motivational,
+        success, love and life quotes.
+    </p>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search Quotes...">
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <button class="explore-btn">
+        Explore Quotes
+    </button>
+<button id="randomBtn" class="explore-btn">
+    🎲 Random Quote
+</button>
+</section>
+
+<section class="quotes" id="quotes">
+
+    <h2>🔥 Trending Quotes</h2>
+
+    <p id="resultQuote">
+        Search for a quote...
+    </p>
+<div class="quote-actions">
+    <button id="favoriteBtn">❤️ Favorite</button>
+    <button id="copyBtn">📋 Copy</button>
+    <button id="shareBtn">📤 Share</button>
+</div>
+    <div class="cards">
+
+       <div class="card" onclick="showCategory('motivation')">
+    <h3>💪 Motivation</h3>
+    <p>"Small steps every day lead to big results."</p>
+</div>
+
+        <div class="card" onclick="showCategory('success')">
+            <h3>🏆 Success</h3>
+            <p>"Success comes to those who never quit."</p>
+        </div>
+
+        <div class="card" onclick="showCategory('love')">
+            <h3>❤️ Love</h3>
+            <p>"Love is shown through actions, not words."</p>
+        </div>
+
+        <div class="card" onclick="showCategory('life')">
+            <h3>🌍 Life</h3>
+            <p>"Life rewards those who stay consistent."</p>
+        </div>
+
+        <div class="card" onclick="showCategory('discipline')">
+            <h3>🔥 Discipline</h3>
+            <p>"Discipline beats motivation."</p>
+        </div>
+
+      <div class="card" onclick="showCategory('dreams')">
+            <h3>✨ Dreams</h3>
+            <p>"Dream big. Start small. Stay consistent."</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="categories" id="categories">
+
+    <h2>📂 Browse Categories</h2>
+
+    <div class="category-list">
+       <button id="loveBtn">❤️ Love</button>
+       <button id="motivationBtn">💪 Motivation</button>
+       <button id="successBtn">🏆 Success</button>
+        <button id="lifeBtn">🌍 Life</button>
+        <button>😔 Sad</button>
+        <button>🕌 Islamic</button>
+        <button>📚 Study</button>
+        <button>🏋️ Gym</button>
+        <button>💰 Money</button>
+        <button>💼 Business</button>
+  <a href="poetry.html">
+    <button>📝 Urdu Poetry</button>
+</a>
+    </div>
+   
+
+</section>
+<section class="poets" id="poets">
+
+    <h2>📝 Featured Poets</h2>
+
+    <div class="cards">
+
+      <a href="poetry.html" style="text-decoration:none;color:white;">
+<div class="card">
+    <h3>🖋️ Jaun Elia</h3>
+    <p>Read timeless poetry by Jaun Elia.</p>
+</div>
+</a>  
+
+        <div class="card">
+            <h3>📚 Allama Iqbal</h3>
+            <p>Explore inspirational poetry by Allama Iqbal.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌹 Ahmed Faraz</h3>
+            <p>Beautiful romantic and emotional poetry.</p>
+        </div>
+
+        <div class="card">
+            <h3>❤️ Mirza Ghalib</h3>
+            <p>Classic Urdu ghazals and poetry.</p>
+        </div>
+
+    </div>
+<section class="stats">
+
+    <h2>📊 QuoteNova Stats</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>1000+</h3>
+            <p>Quotes</p>
+        </div>
+
+        <div class="card">
+            <h3>500+</h3>
+            <p>Urdu Poetry</p>
+        </div>
+
+        <div class="card">
+            <h3>50+</h3>
+            <p>Categories</p>
+        </div>
+
+        <div class="card">
+            <h3>24/7</h3>
+            <p>Free Access</p>
+        </div>
+
+    </div>
+ <section class="stats">
+   
+ </section>
+<button id="showFavoriteBtn" class="explore-btn">
+    ❤️ Show Favorite
+</button>
+<footer id="about">
+    <p>© 2026 QuoteNova | Made with ❤️ by Mudassar</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
