@@ -64,4 +64,34 @@ const quotes = [
 18. Be fearless in the pursuit of greatness.
 19. Stay hungry for success.
 20. Believe, achieve, repeat.
+ 41. Success starts with a single step.
+42. Keep going even when it's difficult.
+43. Your only competition is yesterday's you.
+44. Every effort counts.
+45. Stay focused on your dreams.
+46. Hard work never goes unnoticed.
+47. Believe, work, achieve.
+48. The future belongs to those who prepare today.
+49. Stay patient and trust your journey.
+50. Don't stop until you're proud.
+51. Success grows through consistency.
+52. Every new day brings new opportunities.
+53. Fear less, achieve more.
+54. Great minds never stop learning.
+55. Progress is made one step at a time.
+56. Stay positive and keep moving.
+57. Success loves discipline.
+58. Your actions define your future.
+59. Never lose hope.
+60. Strong people create strong futures.
+61. Every challenge makes you stronger.
+62. Make your dreams your priority.
+63. Keep your vision clear.
+64. Stay humble, stay hungry.
+65. Success comes from daily habits.
+66. Difficult roads lead to beautiful destinations.
+67. Your mindset changes everything.
+68. Great achievements require patience.
+69. The best time to start is now.
+70. Success begins with self-confidence. 
 ];
