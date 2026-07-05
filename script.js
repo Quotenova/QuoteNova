@@ -29,12 +29,7 @@ const motivationQuotes = [
 "Consistency wins every time.",
 "Your future starts today."
 ];
-const allQuotes = [
-    ...loveQuotes,
-    ...successQuotes,
-    ...lifeQuotes,
-    ...motivationQuotes
-];
+const allQuotes = quotes;
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
 const resultQuote = document.getElementById("resultQuote");
