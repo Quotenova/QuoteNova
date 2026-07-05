@@ -94,4 +94,34 @@ const quotes = [
 68. Great achievements require patience.
 69. The best time to start is now.
 70. Success begins with self-confidence. 
+ 71. Success is the reward of persistence.
+72. Every day is another chance to improve.
+73. Your dreams deserve your hard work.
+74. Never stop chasing greatness.
+75. Small wins build big success.
+76. Stay dedicated to your purpose.
+77. Growth begins outside your comfort zone.
+78. Every sunrise is a fresh opportunity.
+79. Confidence is built through action.
+80. Be proud of how far you've come.
+81. Great things never happen by accident.
+82. Success follows those who stay consistent.
+83. Keep your goals bigger than your fears.
+84. Believe in the power of new beginnings.
+85. Success comes one step at a time.
+86. Stay focused on what truly matters.
+87. A positive attitude changes everything.
+88. Work in silence, shine with results.
+89. Success starts with self-discipline.
+90. Keep climbing, the view is worth it.
+91. Turn your failures into lessons.
+92. Strong minds create strong futures.
+93. Success is earned through effort.
+94. Every challenge hides an opportunity.
+95. Keep learning, keep growing.
+96. Your future depends on today's actions.
+97. Never let fear stop your progress.
+98. Stay patient, success takes time.
+99. Make your dreams impossible to ignore.
+100. The best version of you is still ahead. 
 ];
