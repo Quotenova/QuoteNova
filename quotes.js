@@ -1,4 +1,4 @@
-const quotes = [
+window.quotes = [
   "Success begins where excuses end.",
   "Small steps every day create big results.",
   "Discipline beats motivation.",
