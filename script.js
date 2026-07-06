@@ -29,7 +29,7 @@ const motivationQuotes = [
 "Consistency wins every time.",
 "Your future starts today."
 ];
-const allQuotes = window.quotes;
+const allQuotes = window.quotes || [];
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
 const resultQuote = document.getElementById("resultQuote");
